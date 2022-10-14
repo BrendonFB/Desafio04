@@ -1,0 +1,186 @@
+*{
+  margin: 0px;
+  padding: 0px; 
+  box-sizing: border-box;
+}
+
+
+body::before{
+  content: '';
+  height: 436px;
+  width: 100%;  
+  background-color: #535971;
+
+  position: absolute;
+  z-index: -1;
+}
+
+
+h1, legend{ 
+  font-family: 'Staatliches', cursive;
+  color: white;
+}
+
+h2{
+  padding-top: 48px;
+  padding-bottom: 11px;
+  font-family: 'Staatliches', cursive;
+  font-size: 20px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #535971;
+}
+
+p{
+  font-family: 'Poppins', sans-serif;  
+  color: white;
+}
+
+header{
+  margin: auto;
+  width: 750px;
+  padding-top: 104px;
+  margin-bottom: 58px;
+}
+
+.text-top h1{
+  width: 163px;
+}
+.text-top p{
+  width: 417px;
+}
+
+form{
+  background-color: white;
+  border-radius: 20px 20px 0px 0px;
+  margin: auto;
+  padding: 64px;
+  width: 750px;
+  min-height: 600px;
+}
+
+fieldset { 
+  border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+}
+
+legend{
+  border-bottom: 1px solid #E6E6F0;
+  width: 622px;
+
+  font-size: 24px;  
+  line-height: 34px;
+  color: #535971;
+}
+
+.nomees{
+  border-top: 52px;
+  padding-top: 36px;
+  display: flex;
+  flex-direction:row;
+  gap: 22px;
+}
+
+.nome-pref{
+  padding-top: 36px;
+}
+
+.inputs input{
+  font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  border: 1px solid #E6E6F0;
+  
+  border-radius: 8px;
+  box-sizing: border-box;
+
+  height: 56px;
+  width: 100%;
+  
+  padding-left: 24px;
+}
+
+
+.inputs label{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  border-bottom: 32px;
+  
+  color: #4E4958;
+  text-align: left;
+}
+
+.inputs span{
+  padding-left: 9px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #C1BCCC;
+}
+
+.fomr{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+/*.dados{
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}*/
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+}
+
+.nomees input{
+  width: 300px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 48px;
+}
+
+.tempo .inputsv2 input{
+  width: 100%;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  padding: 71px 56px;
+  margin: auto;
+  
+  width: 750px;
+  height: 160px;
+
+  background-color:  #535971;
+  border-radius: 0px 0px 20px 20px;
+
+}
+footer .button{
+  height: 56px;
+  background: #FF5374;
+  border: 20px;
+  border-radius: 8px;
+
+  font-family: 'Poppins', sans-serif;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #FFFFFF;
+}
+
+.button:hover{
+  background: #aa384f;
+}
+
+
+
